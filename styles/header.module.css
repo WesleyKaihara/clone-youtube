@@ -1,0 +1,79 @@
+.header{
+    align-items: center;
+    display: flex;
+    height: 70px;
+    background:#202020de;
+    gap: 5vh;
+    position: fixed;
+    width: 100%;
+    padding: 0 5vh;
+}
+
+.menu{
+    color: #fff;
+    background: #20202000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.menu_icon{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.884);
+    cursor: pointer;
+}
+
+.pesquisar{
+    width: 50%;
+    margin: 10vh;
+}
+
+.pesquisar_input{
+    width: 100%;
+    background: #101010;
+    border: #303030;
+    height:40px;
+    padding: 5px;
+    font-size: 2.5vh;
+}
+
+.pesquisar_btn{
+    height: 40px;
+    background:#505050;
+    border: none;
+    color: #999;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    width: 60px;
+    z-index: -1;
+}
+
+.form{
+    display: flex;
+}
+
+.right_icons{
+    display: flex;
+    gap: 3vh;
+}
+
+.mic{
+    font-size: 1vh;
+    color: rgba(255, 255, 255, 0.884);
+    cursor: pointer;
+    margin-left: 3vh;
+    background: #202020;
+    display: flex;
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.perfil{
+    border-radius: 50%;
+    cursor: pointer;
+}
