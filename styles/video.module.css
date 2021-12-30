@@ -1,0 +1,80 @@
+.video{
+    background: #181818;
+    padding-top: 15vh;
+}
+
+.video_content{
+    width: 85%;
+    margin: auto;
+}
+
+.video_main{
+    width: 65%;
+}
+
+.video_title{
+    font-size: 3.5vh;
+    color: #fff;
+    font-weight: normal;
+}
+
+.info{
+    display: flex;
+    gap: 3vh;
+}
+
+.info_content{
+    display: flex;
+    color: rgb(216, 216, 216);
+    justify-content: space-between;
+}
+
+.info_item{
+    cursor: pointer;
+    display: flex;
+    gap:2vh;
+}
+
+.canal_info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.canal_img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.canal_sobre{
+    display: flex;
+    gap: 2vh;
+}
+
+.canal_name{
+    font-size: 2.5vh;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+}
+.canal_sub{
+    font-size:1.8vh;
+    color: rgb(216, 216, 216);
+}
+
+.inscrever{
+    height: 35px;
+    width: 20vh;
+    font-size: 2.5vh;
+    font-weight: bold;
+    background: #f00;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.inscrever:hover{
+    background: rgb(177, 0, 0);
+}

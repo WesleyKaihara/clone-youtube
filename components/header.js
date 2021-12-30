@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
@@ -12,11 +13,16 @@ export default function Header() {
     return (
         <div className={style.header}>
             <button className={style.menu}><MenuIcon className={style.menu_icon} /></button>
-            <Image
+            <Link href="/">
+                <a>
+                <Image
                 src="/images/logo.png"
                 width={150}
                 height={120}
                 alt='logo' />
+                </a>
+            </Link>
+            
             <div className={style.pesquisar}>
                 <form className={style.form}>
                     <input type="text" placeholder="Pesquisar" className={style.pesquisar_input} />
