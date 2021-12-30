@@ -2,11 +2,12 @@
     align-items: center;
     display: flex;
     height: 70px;
-    background:#202020de;
+    background:#202020f8;
     gap: 5vh;
     position: fixed;
     width: 100%;
     padding: 0 5vh;
+    z-index: 999;
 }
 
 .menu{

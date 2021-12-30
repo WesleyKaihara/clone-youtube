@@ -1,0 +1,49 @@
+.submenu {
+  display: flex;
+  gap: 3vh;
+  width: 100%;
+  top: 70px;
+  background: #303030;
+  padding-top: 10px;
+  border-top: 1px solid rgba(82, 82, 82, 0.884);
+  border-bottom: 1px solid rgba(82, 82, 82, 0.884);
+  position: fixed;
+  z-index: 999;
+}
+.submenu p {
+  background: #3b3b3b;
+  color: rgba(255, 255, 255, 0.884);
+  padding: 3px 8px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1px solid rgba(82, 82, 82, 0.884);
+}
+.submenu p:hover {
+  background: #666666;
+}
+.submenu_tudo {
+  background: rgba(255, 255, 255, 0.884);
+  color: #000;
+}
+.content {
+  width: 95%;
+  background: #303030;
+}
+.menulateral {
+  width: 5%;
+}
+.home {
+  display: flex;
+  padding-top: 115px;
+  background: #303030;
+}
+
+.videos {
+  background: #202020;
+  padding: 5vh;
+  display: flex;
+  gap: 5vh;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
