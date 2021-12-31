@@ -78,3 +78,51 @@
 .inscrever:hover{
     background: rgb(177, 0, 0);
 }
+
+.desc{
+    margin-left: 9vh;
+    color: rgb(255, 255, 255);
+}
+
+.mostrarmais{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    color: rgb(194, 194, 194);
+}
+
+.filtrocomentarios{
+    display: flex;
+    gap: 4vh;
+}
+.filtrocomentarios_text{
+    color: #fff;
+    font-weight: normal;
+    font-size: 2.5vh;
+}
+
+.filtro{
+    display: flex;
+    gap: 1vh;
+    color: #fff;
+    cursor: pointer;
+}
+
+.addcomentario{
+    display: flex;
+    gap: 5vh;
+    padding:3vh 0 5vh 0 ;
+}
+.addcomentario_input{
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    transition: all .3s ease-out;
+}
+.addcomentario_input:focus{
+    outline:none;
+    border: none;
+    border-bottom: 1px solid #000;
+}

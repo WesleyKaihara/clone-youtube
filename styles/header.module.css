@@ -1,7 +1,7 @@
 .header{
     align-items: center;
     display: flex;
-    height: 70px;
+    height: 60px;
     background:#202020f8;
     gap: 5vh;
     position: fixed;
@@ -23,20 +23,26 @@
     font-size: 35px;
     color: rgba(255, 255, 255, 0.884);
     cursor: pointer;
+    transition: all .4s ease-out;
+}
+.menu_icon:hover,.mic:hover{
+    color: #999;
 }
 
 .pesquisar{
     width: 50%;
     margin: 10vh;
+    
 }
 
 .pesquisar_input{
     width: 100%;
     background: #101010;
-    border: #303030;
+    border: 1px solid rgb(83, 83, 83);
     height:40px;
     padding: 5px;
     font-size: 2.5vh;
+    z-index: 2;
 }
 
 .pesquisar_btn{
@@ -49,7 +55,11 @@
     display: flex;
     cursor: pointer;
     width: 60px;
-    z-index: -1;
+    transition: all .4s ease-out;
+}
+.pesquisar_btn:hover{
+    background: rgb(107, 107, 107);
+    color:#474747;
 }
 
 .form{
@@ -72,6 +82,7 @@
     padding: 8px;
     width: 40px;
     height: 40px;
+    transition: all .4s ease-out;
 }
 
 .perfil{

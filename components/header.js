@@ -15,34 +15,44 @@ export default function Header() {
             <button className={style.menu}><MenuIcon className={style.menu_icon} /></button>
             <Link href="/">
                 <a>
-                <Image
-                src="/images/logo.png"
-                width={150}
-                height={120}
-                alt='logo' />
+                    <Image
+                        src="/images/logo.png"
+                        width={120}
+                        height={80}
+                        alt='logo'
+                        title='Página inicial do Youtube' />
                 </a>
             </Link>
-            
+
             <div className={style.pesquisar}>
                 <form className={style.form}>
                     <input type="text" placeholder="Pesquisar" className={style.pesquisar_input} />
-                    <button type='submit' className={style.pesquisar_btn} >
+                    <button type='submit' className={style.pesquisar_btn} title='Pesquisar'>
                         <SearchIcon />
                     </button>
-                    <KeyboardVoiceIcon className={style.mic}/>
+                    <div title='Pesquisar com sua voz'>
+                        <KeyboardVoiceIcon className={style.mic} />
+                    </div>
                 </form>
 
             </div>
             <div className={style.right_icons}>
-                <VideoCallIcon className={style.menu_icon} />
-                <ViewModuleIcon className={style.menu_icon} />
-                <NotificationsNoneIcon className={style.menu_icon} />
+                <div title='Criar'>
+                    <VideoCallIcon className={style.menu_icon} />
+                </div>
+                <div title='Aplicativos do Youtube'>
+                    <ViewModuleIcon className={style.menu_icon} />
+                </div>
+                <div title='Notificações'>
+                    <NotificationsNoneIcon className={style.menu_icon} />
+                </div>
+
             </div>
-            <Image 
-            src="/images/cachorro.jpg"
-            width={40}
-            height={40}
-            className={style.perfil}/>
+            <Image
+                src="/images/cachorro.jpg"
+                width={40}
+                height={40}
+                className={style.perfil} />
         </div>
     )
 }

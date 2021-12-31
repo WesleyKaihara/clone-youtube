@@ -1,0 +1,38 @@
+.comentario{
+    width: 100%;
+    display: flex;
+    gap: 3vh;
+    padding: 1.5vh ;
+}
+.canal_img{
+    border-radius: 50%;
+}
+.nome_canal{
+    font-size: 2.5vh;
+    color: #fff;
+    margin: 0;
+    margin-top:-15px;
+}
+
+.tempo{
+    color: rgb(197, 197, 197);
+    font-size: 2vh;
+}
+
+.comentario_text{
+    color: rgb(219, 219, 219);
+    text-align: justify;
+    margin: 0;
+}
+
+.likes{
+    display: flex;
+    gap: 3vh;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.like_btn{
+    cursor: pointer;
+    color: rgb(221, 221, 221);
+}
