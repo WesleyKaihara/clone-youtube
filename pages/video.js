@@ -7,6 +7,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import FilterListIcon from '@mui/icons-material/FilterList';
 import Image from 'next/image';
 import Comentario from '../components/comentario';
+import Sugestao from '../components/sugestao';
 export default function Video() {
     return (
         <div className={styles.video}>
@@ -81,17 +82,39 @@ export default function Video() {
                         <input type="text" placeholder='Adicionar um comentário público..' className={styles.addcomentario_input} />
                     </div>
                     <div className={styles.comentario}>
-                        <Comentario/>
-                        <Comentario/>
-                        <Comentario/>
-                        <Comentario/>
-                        <Comentario/>
-                        <Comentario/>
+                        <Comentario />
+                        <Comentario />
+                        <Comentario />
+                        <Comentario />
+                        <Comentario />
+                        <Comentario />
                     </div>
                 </div>  {/*Componente central*/}
 
-                <div>
-
+                <div className={styles.menudireita}>
+                    <div className={styles.submenu}>
+                        <p style={{ background: "rgba(255, 255, 255, 0.884)", color: "#000" }}>Tudo</p>
+                        <p>ReactJs</p>
+                        <p>Podcast</p>
+                        <p>NextJS</p>
+                        <p>Java</p>
+                        <p>Wordpress</p>
+                    </div>
+                    <div className={styles.sugestoes}>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                         <Sugestao/>
+                    </div>
+                    
                 </div>
             </div>
 

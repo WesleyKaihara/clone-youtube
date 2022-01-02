@@ -1,0 +1,27 @@
+.sugestao{
+    display: flex;
+    gap: 2vh;
+    cursor: pointer;
+}
+.sugestao_img{
+    transition: all .5s ease-in;
+}
+.sugestao:hover .sugestao_img{
+    filter: brightness(70%);
+}
+.desc{
+    font-size: 2vh;
+    color: rgb(187, 187, 187);
+}
+
+.title{
+    font-size: 2vh;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.info{
+    display: flex;
+    gap: 1vh;
+}

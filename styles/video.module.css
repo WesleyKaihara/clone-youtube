@@ -6,6 +6,8 @@
 .video_content{
     width: 85%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .video_main{
@@ -126,3 +128,26 @@
     border: none;
     border-bottom: 1px solid #000;
 }
+.submenu{
+    display: flex;
+    justify-content: space-between;
+}
+.submenu p {
+    background: #3b3b3b;
+    color: rgba(255, 255, 255, 0.884);
+    padding:1vh;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: 1px solid rgba(82, 82, 82, 0.884);
+  }
+
+  .menudireita{
+      width: 33%;
+  }
+
+  .sugestoes{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }

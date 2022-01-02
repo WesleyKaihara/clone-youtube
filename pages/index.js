@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import CardHome from '../components/CardVideoHome'
+import CardHome from '../components/cardvideohome'
 
 export default function Home() {
    return (
