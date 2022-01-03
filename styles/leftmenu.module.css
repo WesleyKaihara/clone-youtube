@@ -1,0 +1,37 @@
+.leftmenu{
+    width: 100%;
+    line-height: 1vh;
+}
+
+.btn{
+    padding: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #4d4d4d;
+}
+.btn_text{
+    color: #fff;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    gap: 1.5vh;
+}
+.btn_text:hover{
+    color: #fff;
+}
+
+.title{
+    color: rgb(206, 206, 206);
+    font-size: 2vh;
+    margin-left: 15%;
+    padding-top: 1.5vh;
+    text-transform: uppercase;
+    margin-bottom: 2vh;
+}
+
+.canal_img{
+    border-radius: 50%;
+}

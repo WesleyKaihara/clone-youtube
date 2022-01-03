@@ -7,12 +7,17 @@ import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import style from '../styles/header.module.css'
+import Estilo from '../styles/Home.module.css'
 
+{/* window.locatiob.href = url  *Pesquisar */}
+function Sair(){
+    
+}
 export default function Header() {
 
     return (
         <div className={style.header}>
-            <button className={style.menu}><MenuIcon className={style.menu_icon} /></button>
+            <button className={style.menu} onClick={Sair}><MenuIcon className={style.menu_icon}/></button>
             <Link href="/">
                 <a>
                     <Image

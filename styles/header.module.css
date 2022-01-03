@@ -7,7 +7,7 @@
     position: fixed;
     width: 100%;
     padding: 0 5vh;
-    z-index: 999;
+    z-index: 99999;
 }
 
 .menu{
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
 }
-
+ 
 .menu_icon{
     font-size: 35px;
     color: rgba(255, 255, 255, 0.884);
