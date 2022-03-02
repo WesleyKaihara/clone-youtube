@@ -1,8 +1,8 @@
-.header{
+.header {
     align-items: center;
     display: flex;
     height: 60px;
-    background:#202020f8;
+    background: #202020f8;
     gap: 5vh;
     position: fixed;
     width: 100%;
@@ -10,7 +10,7 @@
     z-index: 99999;
 }
 
-.menu{
+.menu {
     color: #fff;
     background: #20202000;
     border: none;
@@ -18,36 +18,38 @@
     display: flex;
     align-items: center;
 }
- 
-.menu_icon{
+
+.menu_icon {
     font-size: 35px;
     color: rgba(255, 255, 255, 0.884);
     cursor: pointer;
     transition: all .4s ease-out;
 }
-.menu_icon:hover,.mic:hover{
+
+.menu_icon:hover,
+.mic:hover {
     color: #999;
 }
 
-.pesquisar{
+.pesquisar {
     width: 50%;
     margin: 10vh;
-    
+
 }
 
-.pesquisar_input{
+.pesquisar_input {
     width: 100%;
     background: #101010;
     border: 1px solid rgb(83, 83, 83);
-    height:40px;
+    height: 40px;
     padding: 5px;
     font-size: 2.5vh;
     z-index: 2;
 }
 
-.pesquisar_btn{
+.pesquisar_btn {
     height: 40px;
-    background:#505050;
+    background: #505050;
     border: none;
     color: #999;
     align-items: center;
@@ -57,26 +59,27 @@
     width: 60px;
     transition: all .4s ease-out;
 }
-.pesquisar_btn:hover{
+
+.pesquisar_btn:hover {
     background: rgb(107, 107, 107);
-    color:#474747;
+    color: #474747;
 }
 
-.form{
+.form {
     display: flex;
 }
 
-.right_icons{
+.right_icons {
     display: flex;
     gap: 3vh;
 }
 
-.mic{
+.mic_btn {
     font-size: 1vh;
     color: rgba(255, 255, 255, 0.884);
     cursor: pointer;
     margin-left: 3vh;
-    background: #202020;
+    background: #464646;
     display: flex;
     border-radius: 50%;
     padding: 8px;
@@ -85,7 +88,7 @@
     transition: all .4s ease-out;
 }
 
-.perfil{
+.perfil {
     border-radius: 50%;
     cursor: pointer;
 }

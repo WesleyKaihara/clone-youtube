@@ -17,7 +17,7 @@ export default function Video() {
 
                 <div className={styles.video_content}>
                     <div className={styles.video_main}>
-                        <iframe width="100%" height="370" src="https://www.youtube.com/embed/Mf4Se4ZGcG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="100%" height="370" src="https://www.youtube.com/embed/Mf4Se4ZGcG8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                         <h1 className={styles.video_title}>Homepage da Tesla com ReactJS | UI Clone #14</h1>
                         <div className={styles.info_content}>
                             <p>50.285 visualizações</p>
@@ -52,7 +52,8 @@ export default function Video() {
                                         src="/images/logos/logorocketseat.jpeg"
                                         width={40}
                                         height={40}
-                                        className={styles.canal_img} />
+                                        className={styles.canal_img}
+                                        alt="Logo" />
                                 </div>
                                 <div className={styles.canal_title}>
                                     <h1 className={styles.canal_name} title='Rocketseat'>Rocketseat</h1>
@@ -81,7 +82,8 @@ export default function Video() {
                                 src="/images/cachorro.jpg"
                                 width={40}
                                 height={40}
-                                className={styles.canal_img} />
+                                className={styles.canal_img}
+                                alt="perfil" />
                             <input type="text" placeholder='Adicionar um comentário público..' className={styles.addcomentario_input} />
                         </div>
                         <div className={styles.comentario}>

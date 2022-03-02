@@ -9,15 +9,15 @@ import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import style from '../styles/header.module.css'
 import Estilo from '../styles/Home.module.css'
 
-{/* window.locatiob.href = url  *Pesquisar */}
-function Sair(){
-    
+{/* window.locatiob.href = url  *Pesquisar */ }
+function Sair() {
+
 }
 export default function Header() {
 
     return (
         <div className={style.header}>
-            <button className={style.menu} onClick={Sair}><MenuIcon className={style.menu_icon}/></button>
+            <button className={style.menu} onClick={Sair}><MenuIcon className={style.menu_icon} /></button>
             <Link href="/">
                 <a>
                     <Image
@@ -35,7 +35,7 @@ export default function Header() {
                     <button type='submit' className={style.pesquisar_btn} title='Pesquisar'>
                         <SearchIcon />
                     </button>
-                    <div title='Pesquisar com sua voz'>
+                    <div className={style.mic_btn} title='Pesquisar com sua voz'>
                         <KeyboardVoiceIcon className={style.mic} />
                     </div>
                 </form>
@@ -57,7 +57,8 @@ export default function Header() {
                 src="/images/cachorro.jpg"
                 width={40}
                 height={40}
-                className={style.perfil} />
+                className={style.perfil}
+                alt="Perfil" />
         </div>
     )
 }
